@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    mode: HTML
+
+#Mybatis配置
+mybatis:
+  #实体类所在包名
+  type-aliases-package: com.starix.blog.entity
+  # 开启Mybatis下滑线转驼峰命名
+  map-underscore-to-camel-case: true
+#通用mapper配置
+mapper:
+  #公用接口类路径
+  mappers: com.starix.blog.common.BaseMapper
+  identity: MYSQL

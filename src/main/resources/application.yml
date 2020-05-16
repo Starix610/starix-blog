@@ -7,7 +7,7 @@ spring:
 #Mybatis配置
 mybatis:
   #实体类所在包名
-  type-aliases-package: com.starix.blog.entity
+  type-aliases-package: com.starix.blog.entity1
   # 开启Mybatis下滑线转驼峰命名
   map-underscore-to-camel-case: true
 #通用mapper配置

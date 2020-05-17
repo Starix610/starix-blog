@@ -1,4 +1,4 @@
-package com.starix.blog.utils;
+package com.starix.blog.util;
 
 import javax.servlet.http.HttpServletRequest;
 

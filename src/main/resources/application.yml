@@ -6,8 +6,9 @@ spring:
 
 #Mybatis配置
 mybatis:
+  mapper-locations: classpath:mapper/*.xml
   #实体类所在包名
-  type-aliases-package: com.starix.blog.entity1
+  type-aliases-package: com.starix.blog.entity
   # 开启Mybatis下滑线转驼峰命名
   map-underscore-to-camel-case: true
 #通用mapper配置
@@ -15,3 +16,9 @@ mapper:
   #公用接口类路径
   mappers: com.starix.blog.common.BaseMapper
   identity: MYSQL
+pagehelper:
+  auto-dialect: mysql
+  # 分页合理化参数，默认值为false。
+  # 当该参数设置为 true 时，pageNum<=0 时会查询第一页， pageNum>pages（超过总数时），会查询最后一页
+  reasonable: true
+  support-methods-arguments: true

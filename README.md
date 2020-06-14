@@ -4,6 +4,6 @@
 
 ### 预览图
 <div align="center">
-![image](https://www.starix.top/github/images/20200614143347.png)
-![image](https://www.starix.top/github/images/20200614143547.png)
+<img src="http://www.starix.top/github/images/20200614143347.png" alt="image" width="auto">
+<img src="http://www.starix.top/github/images/20200614143347.png" alt="image" width="auto">
 </div>
